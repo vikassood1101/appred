@@ -1,0 +1,361 @@
+{% extends "base.html" %} {% block title %} Dataset {% endblock %} {% block main
+%}
+<div class="container contactus">
+  <div class="row">
+    <table class="table table-striped table-bordered table-sm table-responsive">
+      <thead>
+        <tr>
+          <th colspan="4">
+            Dataset 1 (This dataset classify antiprotozoal from
+            non-antimicrobial peptides)
+          </th>
+        </tr>
+        <tr>
+          <th>Dataset</th>
+          <th>Description</th>
+          <th>Training Data</th>
+          <th>Validation Data</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Positive Dataset (Antiprotozoal)</td>
+          <td>
+            Dataset contains 220 peptides as Training data and 55 peptides as Validation data
+
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Non-AMP/Train_pos_DS1.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Non-AMP/Val_pos_DS1.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Negative Dataset (Non AMP)</td>
+          <td>
+            Dataset contains 220 peptides as Training data and 55 peptides as Validation data
+
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Non-AMP/Train_neg_DS1.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Non-AMP/Val_neg_DS1.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="row">
+    <table class="table table-striped table-bordered table-sm table-responsive">
+      <thead>
+        <tr>
+          <th colspan="4">
+            Dataset 2 (This dataset classify antiprotozoal from antiviral
+            peptides)
+          </th>
+        </tr>
+        <tr>
+          <th>Dataset</th>
+          <th>Description</th>
+          <th>Training Data</th>
+          <th>Validation Data</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Positive Dataset (Antiprotozoal)</td>
+          <td>
+            Dataset contains 220 peptides as Training data and 55 peptides as Validation data
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Antiviral/Train_pos_DS2.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Antiviral/Val_pos_DS2.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Negative Dataset (Antiviral)</td>
+          <td>
+            Dataset contains 220 peptides as Training data and 55 peptides as Validation data
+
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Antiviral/Train_neg_DS2.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Antiviral/Val_neg_DS2.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br /><br />
+  <div class="row">
+    <table class="table table-striped table-bordered table-sm table-responsive">
+      <thead>
+        <tr>
+          <th colspan="4">
+            Dataset 3 (This dataset classify antiprotozoal from antibacterial
+            peptides)
+          </th>
+        </tr>
+        <tr>
+          <th>Dataset</th>
+          <th>Description</th>
+          <th>Training Data</th>
+          <th>Validation Data</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Positive Dataset (Antiprotozoal)</td>
+          <td>
+            Dataset contains 220 peptides as Training data and 55 peptides as Validation data
+
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Antibacterial/Train_pos_DS3.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Antibacterial/Val_pos_DS3.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Negative Dataset (Antibacterial)</td>
+          <td>
+            Dataset contains 220 peptides as Training data and 55 peptides as Validation data
+
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Antibacterial/Train_neg_DS3.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Antibacterial/Val_neg_DS3.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br /><br />
+  <div class="row">
+    <table class="table table-striped table-bordered table-sm table-responsive">
+      <thead>
+        <tr>
+          <th colspan="4">
+            Dataset 4 (This dataset classify antiprotozoal from antifungal
+            peptides)
+          </th>
+        </tr>
+        <tr>
+          <th>Dataset</th>
+          <th>Description</th>
+          <th>Training Data</th>
+          <th>Validation Data</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Positive Dataset (Antiprotozoal)</td>
+          <td>
+            Dataset contains 220 peptides as Training data and 55 peptides as Validation data
+
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Antifungal/Train_pos_DS4.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Antifungal/Val_pos_DS4.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Negative Dataset (Antifungal)</td>
+          <td>
+            Dataset contains 220 peptides as Training data and 55 peptides as Validation data
+
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Antifungal/Train_neg_DS4.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/Antifungal/Val_neg_DS4.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br /><br />
+  <div class="row">
+    <table class="table table-striped table-bordered table-sm table-responsive">
+      <thead>
+        <tr>
+          <th colspan="4">
+            Dataset 5 (This dataset classify antiprotozoal from antimicrobial (excluding antiprotozoal)
+            peptides)
+          </th>
+        </tr>
+        <tr>
+          <th>Dataset</th>
+          <th>Description</th>
+          <th>Training Data</th>
+          <th>Validation Data</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Positive Dataset (Antiprotozoal)</td>
+          <td>
+            Dataset contains 220 peptides as Training data and 55 peptides as Validation data
+
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/AMP/Train_pos_DS5.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/AMP/Val_pos_DS5.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Negative Dataset (AMP)</td>
+          <td>
+            Dataset contains 220 peptides as Training data and 55 peptides as Validation data
+
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/AMP/Train_neg_DS5.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+          <td class="dataset-td">
+            <div class="dataset-div">
+              <a
+                download
+                href="{{url_for('static', filename='datasets/AMP/Val_neg_DS5.txt')}}"
+                ><img src="{{url_for('static', filename='assets/fonts/dataset.svg')}}" alt="dataset"
+              /></a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br /><br />
+
+  <br />
+  <br /><br /><br />
+</div>
+{% endblock %}

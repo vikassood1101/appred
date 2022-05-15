@@ -1,0 +1,267 @@
+{% extends "base.html" %}
+{% block title %}
+Protein
+{% endblock %}
+{% block main %}
+
+<div class="container mainblock">
+  <div class="container">
+    <h2 class="heading-color" style="text-align: center"><i> Identifying antiprotozoal peptides from a given protein sequence</i></h2>
+    <hr>
+  </div>
+  <br>
+  <div class="container" style="text-align: justify;">
+    <h6><i>This module breaks a given protein sequence into all possible overlapping peptides according to the length defined by the user. It is designed to allow the user to identify regions in a protein which could have a potential antiprotozoal activity which can then be tested further. <br> For more help please visit <a style="text-decoration: none;" href="{{request.script_root}}/help">Help</a>
+    </i></h6>
+  </div>
+  <br />
+  <hr>
+  <form method="POST" action="{{request.script_root}}/proteinScan" enctype="multipart/form-data">
+    <div class="form-group">
+      <p>
+        <b>Type or paste one protein sequence in single letter code: </b>
+      </p>
+      <button type="button" class="btn btn-secondary btn-sm" onclick="protein_sample()">
+        Example Sequence
+      </button>
+      <button type="button" class="btn btn-secondary btn-sm"
+        onclick="document.getElementById('pro_input_area').value =''">
+        Clear Input
+      </button>
+      <textarea class="form-control input_area" id="pro_input_area" name="sequence" rows="3"
+        placeholder="type or paste here"></textarea>
+    </div>
+    <br>
+    <hr>
+    <div class="slidecontainer">
+      <label for="myRange"><strong>Select the value for peptide fragment length:</strong></label><br>
+      <input type="range" min="8" max="25" value="15" name="slider_value" class="slider" id="myRange">
+      <p>Value: <span id="slider_value"></span></p>
+    </div>
+    <hr>
+    <p><b>Select Negative Dataset: </b></p>
+    <div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="negdata"
+          id="Antiviral"
+          value="Antiviral"
+          required
+        />
+        <label class="form-check-label" for="Antiviral"><h6>Antiviral</h6></label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="negdata"
+          id="Antibacterial"
+          value="Antibacterial"
+          required
+          
+        />
+        <label class="form-check-label" for="Antibacterial"
+          ><h6>Antibacterial</h6></label
+        >
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="negdata"
+          id="Antifungal"
+          value="Antifungal"
+          required
+        />
+        <label class="form-check-label" for="Antifungal"><h6>Antifungal</h6></label>
+      </div>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="negdata"
+          id="AMP"
+          value="AMP"
+          required
+        />
+        <label class="form-check-label" for="AMP"><h6>AMP</h6></label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="negdata"
+          id="NON_AMP"
+          value="NON_AMP"
+          required
+          checked
+        />
+        <label class="form-check-label" for="NON_AMP"
+          ><h6>Non-AMP</h6></label
+        >
+      </div>
+
+    </div>
+
+    <hr>
+
+    <p><b>Feature Selection Method: </b></p>
+    <div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="featureSelection"
+          id="SVC"
+          value="SVC"
+          required
+          
+        />
+        <label class="form-check-label" for="SVC"><h6>SVC-L1</h6></label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="featureSelection"
+          id="MRMR"
+          value="MRMR"
+          required
+          checked
+        />
+        <label class="form-check-label" for="MRMR"><h6>mRMR</h6></label>
+      </div>
+    </div>
+    <hr>
+
+    <p><b>Select Prediction Model: </b></p>
+    <div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="ModalSelection"
+          value="DT"
+          id="DT"
+          required
+        />
+        <label class="form-check-label" for="DT">
+          <h6> Decision Tree</h6>
+         
+        </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="ModalSelection"
+          value="RF"
+          id="RF"
+          required
+        />
+        <label class="form-check-label" for="RF">
+          <h6>Random Forest</h6>
+          
+        </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="ModalSelection"
+          value="SVM"
+          id="SVM"
+          required
+          
+        />
+        <label class="form-check-label" for="SVM"><h6>Support Vector Machine</h6>  </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="ModalSelection"
+          value="Logistic_Regression"
+          id="Logistic_Regression"
+          required
+        />
+        <label class="form-check-label" for="Logistic_Regression">
+          <h6>Logistic Regression</h6>
+          
+        </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="ModalSelection"
+          value="XgBoost"
+          id="XgBoost"
+          required
+          checked
+        />
+        <label class="form-check-label" for="XgBoost"><h6>XGBoost</h6></label>
+      </div>
+    </div>
+    <p>
+      <hr>
+      <b>Threshold</b> (Enter value between 0.1 to 1.0)<b> :</b>
+
+      <input
+        type="number"
+        step="0.01"
+        name="threshold"
+        id="threshold"
+        min="0.1"
+        max="1"
+        required
+      />
+    </p>
+    <br>
+    <div style="margin-left: 30%;">
+    <a href="{{request.script_root}}/proteinScan"><button type="button" class="btn btn-secondary btn-lg">
+        Clear All
+      </button></a>
+    <button type="submit" class="btn btn-secondary btn-lg">
+      Result
+    </button>
+    </div>
+  </form>
+</div>
+<script type="text/javascript">
+  var uploadField = document.getElementById("seqfile");
+
+  uploadField.onchange = function () {
+    var allowedExtensions = /(\.txt)$/i;
+    var filePath = uploadField.value;
+    if (!allowedExtensions.exec(filePath)) {
+      alert('Invalid file type');
+      uploadField.value = '';
+      return false;
+    }
+    if (this.files[0].size > 1048576) {
+      alert("File is too big!");
+      this.value = "";
+    }
+  }
+  document.getElementById("seqfile").addEventListener("change", function () {
+    var file = new FileReader();
+    file.onload = () => {
+      document.getElementById("input_area").value = file.result;
+    };
+    file.readAsText(this.files[0]);
+  });
+</script>
+<script>
+  var slider = document.getElementById("myRange");
+  var output = document.getElementById("slider_value");
+  output.innerHTML = slider.value;
+  
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  };
+  </script>
+  {% endblock %}

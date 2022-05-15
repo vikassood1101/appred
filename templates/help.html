@@ -1,0 +1,80 @@
+{% extends "base.html" %} {% block title %} Help {% endblock %} {% block main %}
+<div class="container">
+  <h2 style="text-align: center;" class="heading-color">APPred Webserver</h2>
+  <br>
+  <div style="text-align: justify;" >
+    <strong >
+      This webserver has been designed to assist scientists in the designing of
+      antiprotozoal peptides. <br />
+      This page helps the user on how different modules of this webserver works. This
+      server's key modules are as follows:
+    </strong>
+    <br />
+  </div>
+</div>
+<br />
+<hr>
+<br />
+<div class="container">
+  <h3 style="text-align: center" class="heading-color">Predict</h3>
+  
+  <div style="text-align: justify;" >
+    <strong>
+      This module allows the users to predict antiprotozoal peptides from a set
+      of peptides or a peptide library (virtual screening). The server will
+      predict and rank peptides based on their potential for antiprotozoal
+      activity.
+    </strong>
+    <br /><br />
+    <div>
+      <img
+        class="help-image"
+        src="{{url_for('static', filename='images/predict.png')}}"
+        alt="predict help"
+      />
+    </div>
+  </div>
+</div>
+<br />
+<hr><br />
+<div class="container">
+  <h4 style="text-align: center" class="heading-color"> Design</h4>
+  <div style="text-align: justify;">
+    <strong>
+      This module generates mutants of a given peptide and predicts
+      antiprotozoal peptides among the mutants. This server helps users to find
+      the bare minimum number of mutations needed to boost the potency of query
+      peptide.
+    </strong>
+    <br /><br />
+    <div>
+      <img
+        class="help-image"
+        src="{{url_for('static', filename='images/design.png')}}"
+        alt="predict help"
+      />
+    </div>
+  </div>
+</div>
+<br /><hr><br />
+<div class="container">
+  <h4 style="text-align: center" class="heading-color">Protein Scan</h4>
+  <div style="text-align: justify;">
+    <strong>
+      This module generates overlapping peptides from the query protein sequence
+      and estimates their antiprotozoal activity. It helps the users to
+      determine which segments of a protein have antiprotozoal activity.
+    </strong>
+    <br /><br />
+    <div>
+      <img
+        class="help-image"
+        src="{{url_for('static', filename='images/protein.png')}}"
+        alt="predict help"
+      />
+    </div>
+  </div>
+</div>
+<br><br><br>
+<br /><br /><br />
+{% endblock %}
