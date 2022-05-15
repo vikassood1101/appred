@@ -1,6 +1,6 @@
 
 from flask import Flask ,render_template,redirect,request,flash
-
+import logging
 from app.read_sequence import predict_validation, protein_validation,motif_validation
 from app.config import LocalDevelopementConfig , ProductionDevelopementConfig
 from app.ML_All_Dataset_SVCL1 import *
@@ -11,6 +11,12 @@ from app.message import result_message,result_title,error_message,error_title
 
 app = Flask(__name__)
 app.config.from_object(ProductionDevelopementConfig)
+
+logging.basicConfig(level=logging.DEBUG,
+                    format='%(asctime)s %(levelname)s %(message)s',
+                    filename= os.path.join(app.static_folder, 'logger', 'appred.log'),
+                    filemode='a')
+
 @app.route("/")
 def home():
     return render_template("index.html")
@@ -40,7 +46,7 @@ def predict():
 
 @app.route("/proteinScan",methods=["GET","POST"])
 def protien():
-    if request.method =="POST":
+    if request.method == "POST":
         form = request.form
         sequence = form["sequence"]
         negative_data = form["negdata"]
@@ -51,7 +57,7 @@ def protien():
         if len(sequence) == 0:
             flash("sequence can't be empty","danger")
             return render_template("protein.html")
-        file = protein_validation(sequence,k)
+        file = protein_validation(sequence, k)
         if file == None:
             return render_template("protein.html")
         if feature_selection =="SVC":
