@@ -304,7 +304,7 @@ def namp_qos(df,gap,w=0.1):
 
 ################## SOC #########
 def namp_soc(df,gap):
-    mat1 = pd.read_csv(os.path.join("modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
+    mat1 = pd.read_csv(os.path.join('', "modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
     h1 = []
     for n in range(1, gap+1):
         h1.append('SC' + str(n))

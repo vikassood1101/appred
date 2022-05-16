@@ -1,8 +1,7 @@
 
-from flask import Flask ,render_template,redirect,request,flash
+from flask import Flask ,render_template, redirect, request,flash
 import logging
 from app.read_sequence import predict_validation, protein_validation,motif_validation
-from app.config import LocalDevelopementConfig , ProductionDevelopementConfig
 from app.ML_All_Dataset_SVCL1 import *
 from app.svc_all_features import *
 from app.ML_All_Datset_MRMR import *
@@ -10,7 +9,8 @@ from app.mrmr_all_features import *
 from app.message import result_message,result_title,error_message,error_title
 
 app = Flask(__name__)
-app.config.from_object(ProductionDevelopementConfig)
+
+app.config.update({'SECRET_KEY' : 'FQ6NepofYh2aBgK94nbpwHkyBEs2b5NF3TF3z3XlbMxLezVQHe'})
 
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(levelname)s %(message)s',
@@ -21,8 +21,14 @@ logging.basicConfig(level=logging.DEBUG,
 def home():
     return render_template("index.html")
 
-@app.route("/predict",methods=["GET","POST"])
+@app.route("/predict", methods = ["GET","POST"])
 def predict():
+    import sys
+    logging.info(sys.path[1])
+    logging.info(os.getcwd())
+    logging.info(os.curdir)
+    ROOT_DIR = os.path.abspath(os.curdir)
+    logging.info(ROOT_DIR)
     if request.method =="POST":
         form = request.form
         sequence = form["sequence"]
@@ -112,4 +118,4 @@ def page_not_found(e):
     return render_template("error.html",error_title=error_title("500"),error_message=error_message("500"))
 
 if __name__== "__main__":
-    app.run()
+    app.run(debug=True)
