@@ -1,0 +1,546 @@
+2022-05-16 01:42:00,898 INFO  * Restarting with stat
+2022-05-16 01:42:02,728 WARNING  * Debugger is active!
+2022-05-16 01:42:02,745 INFO  * Debugger PIN: 115-325-883
+2022-05-16 01:42:03,011 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 01:42:17,898 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 01:42:18,106 INFO  * Restarting with stat
+2022-05-16 01:43:10,921 INFO  * Restarting with stat
+2022-05-16 01:43:12,518 WARNING  * Debugger is active!
+2022-05-16 01:43:12,535 INFO  * Debugger PIN: 115-325-883
+2022-05-16 01:43:12,792 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 01:43:14,774 DEBUG C:\Users\StudentRocks\Desktop\jamia\appred\appred
+2022-05-16 01:43:17,164 INFO 127.0.0.1 - - [16/May/2022 01:43:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2022-05-16 01:43:17,597 INFO 127.0.0.1 - - [16/May/2022 01:43:17] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-16 01:43:17,622 INFO 127.0.0.1 - - [16/May/2022 01:43:17] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-16 01:43:18,062 INFO 127.0.0.1 - - [16/May/2022 01:43:18] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 01:43:18,683 INFO 127.0.0.1 - - [16/May/2022 01:43:18] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 01:43:43,878 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 01:43:44,216 INFO  * Restarting with stat
+2022-05-16 01:44:36,654 INFO  * Restarting with stat
+2022-05-16 01:44:38,080 WARNING  * Debugger is active!
+2022-05-16 01:44:38,102 INFO  * Debugger PIN: 115-325-883
+2022-05-16 01:44:38,411 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 01:44:48,430 DEBUG C:\Users\StudentRocks\Desktop\jamia\appred\appred
+2022-05-16 01:44:48,430 INFO .
+2022-05-16 01:44:50,712 INFO 127.0.0.1 - - [16/May/2022 01:44:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2022-05-16 01:44:51,139 INFO 127.0.0.1 - - [16/May/2022 01:44:51] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-16 01:44:51,160 INFO 127.0.0.1 - - [16/May/2022 01:44:51] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-16 01:44:51,342 INFO 127.0.0.1 - - [16/May/2022 01:44:51] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 01:44:51,692 INFO 127.0.0.1 - - [16/May/2022 01:44:51] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 01:45:12,583 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 01:45:12,998 INFO  * Restarting with stat
+2022-05-16 01:45:14,804 WARNING  * Debugger is active!
+2022-05-16 01:45:14,818 INFO  * Debugger PIN: 115-325-883
+2022-05-16 01:45:15,034 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 01:45:51,723 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 01:45:51,858 INFO  * Restarting with stat
+2022-05-16 01:45:53,933 WARNING  * Debugger is active!
+2022-05-16 01:45:53,957 INFO  * Debugger PIN: 115-325-883
+2022-05-16 01:45:54,352 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 01:45:56,167 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 01:45:56,437 INFO  * Restarting with stat
+2022-05-16 01:45:58,876 WARNING  * Debugger is active!
+2022-05-16 01:45:58,897 INFO  * Debugger PIN: 115-325-883
+2022-05-16 01:45:59,210 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 01:45:59,355 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 01:45:59,530 INFO  * Restarting with stat
+2022-05-16 18:25:01,429 INFO  * Restarting with stat
+2022-05-16 18:25:03,102 WARNING  * Debugger is active!
+2022-05-16 18:25:03,145 INFO  * Debugger PIN: 331-082-004
+2022-05-16 18:25:03,656 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 18:25:10,043 INFO 127.0.0.1 - - [16/May/2022 18:25:10] "GET / HTTP/1.1" 200 -
+2022-05-16 18:25:10,806 INFO 127.0.0.1 - - [16/May/2022 18:25:10] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 18:25:10,821 INFO 127.0.0.1 - - [16/May/2022 18:25:10] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 18:25:10,832 INFO 127.0.0.1 - - [16/May/2022 18:25:10] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 18:25:10,900 INFO 127.0.0.1 - - [16/May/2022 18:25:10] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 18:25:10,911 INFO 127.0.0.1 - - [16/May/2022 18:25:10] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 18:25:10,968 INFO 127.0.0.1 - - [16/May/2022 18:25:10] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 18:25:12,492 INFO 127.0.0.1 - - [16/May/2022 18:25:12] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2022-05-16 18:25:12,648 INFO 127.0.0.1 - - [16/May/2022 18:25:12] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-16 18:25:12,651 INFO 127.0.0.1 - - [16/May/2022 18:25:12] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-16 18:25:13,059 INFO 127.0.0.1 - - [16/May/2022 18:25:13] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 18:26:03,352 INFO 127.0.0.1 - - [16/May/2022 18:26:03] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2022-05-16 18:26:03,420 INFO 127.0.0.1 - - [16/May/2022 18:26:03] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-16 18:26:03,430 INFO 127.0.0.1 - - [16/May/2022 18:26:03] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-16 18:26:03,671 INFO 127.0.0.1 - - [16/May/2022 18:26:03] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 18:26:03,834 INFO 127.0.0.1 - - [16/May/2022 18:26:03] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 18:26:29,851 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 18:26:30,319 INFO  * Restarting with stat
+2022-05-16 21:20:20,811 INFO  * Restarting with stat
+2022-05-16 21:20:22,941 WARNING  * Debugger is active!
+2022-05-16 21:20:22,998 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:20:23,349 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:20:38,127 INFO 127.0.0.1 - - [16/May/2022 21:20:38] "GET / HTTP/1.1" 200 -
+2022-05-16 21:20:40,913 INFO 127.0.0.1 - - [16/May/2022 21:20:40] "GET /static/assets/css/styles.css HTTP/1.1" 200 -
+2022-05-16 21:20:41,022 INFO 127.0.0.1 - - [16/May/2022 21:20:41] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-05-16 21:20:41,023 INFO 127.0.0.1 - - [16/May/2022 21:20:41] "GET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-05-16 21:20:41,024 INFO 127.0.0.1 - - [16/May/2022 21:20:41] "GET /static/assets/fonts/ionicons.min.css HTTP/1.1" 200 -
+2022-05-16 21:20:41,026 INFO 127.0.0.1 - - [16/May/2022 21:20:41] "GET /static/assets/bootstrap/js/main.js HTTP/1.1" 200 -
+2022-05-16 21:20:41,029 INFO 127.0.0.1 - - [16/May/2022 21:20:41] "GET /static/assets/css/footer-basic.css HTTP/1.1" 200 -
+2022-05-16 21:20:41,406 INFO 127.0.0.1 - - [16/May/2022 21:20:41] "GET /static/assets/fonts/favicon.ico HTTP/1.1" 200 -
+2022-05-16 21:20:43,228 INFO 127.0.0.1 - - [16/May/2022 21:20:43] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2022-05-16 21:20:43,999 INFO 127.0.0.1 - - [16/May/2022 21:20:43] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-16 21:20:44,024 INFO 127.0.0.1 - - [16/May/2022 21:20:44] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-16 21:20:44,190 INFO 127.0.0.1 - - [16/May/2022 21:20:44] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 21:20:44,204 INFO 127.0.0.1 - - [16/May/2022 21:20:44] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 21:21:23,425 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 21:21:23,841 INFO  * Restarting with stat
+2022-05-16 21:21:26,540 WARNING  * Debugger is active!
+2022-05-16 21:21:26,572 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:21:27,112 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:21:28,952 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 21:21:29,106 INFO  * Restarting with stat
+2022-05-16 21:21:31,493 WARNING  * Debugger is active!
+2022-05-16 21:21:31,508 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:21:31,754 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:21:32,027 INFO 127.0.0.1 - - [16/May/2022 21:21:32] "[32mGET /predict HTTP/1.1[0m" 308 -
+2022-05-16 21:21:32,287 INFO 127.0.0.1 - - [16/May/2022 21:21:32] "[35m[1mGET /predict/ HTTP/1.1[0m" 500 -
+2022-05-16 21:21:33,042 INFO 127.0.0.1 - - [16/May/2022 21:21:33] "GET /predict/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-16 21:21:33,061 INFO 127.0.0.1 - - [16/May/2022 21:21:33] "GET /predict/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-16 21:21:33,177 INFO 127.0.0.1 - - [16/May/2022 21:21:33] "GET /predict/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 21:21:44,253 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 21:21:44,429 INFO  * Restarting with stat
+2022-05-16 21:21:46,050 WARNING  * Debugger is active!
+2022-05-16 21:21:46,064 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:21:46,350 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:21:56,349 INFO 127.0.0.1 - - [16/May/2022 21:21:56] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2022-05-16 21:21:56,473 INFO 127.0.0.1 - - [16/May/2022 21:21:56] "GET /predict/ HTTP/1.1" 200 -
+2022-05-16 21:21:57,444 INFO 127.0.0.1 - - [16/May/2022 21:21:57] "GET /static/assets/fonts/ionicons.min.css HTTP/1.1" 200 -
+2022-05-16 21:21:57,517 INFO 127.0.0.1 - - [16/May/2022 21:21:57] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-05-16 21:21:57,544 INFO 127.0.0.1 - - [16/May/2022 21:21:57] "GET /static/assets/css/styles.css HTTP/1.1" 200 -
+2022-05-16 21:21:57,580 INFO 127.0.0.1 - - [16/May/2022 21:21:57] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:21:57,605 INFO 127.0.0.1 - - [16/May/2022 21:21:57] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:21:57,698 INFO 127.0.0.1 - - [16/May/2022 21:21:57] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:22:02,317 INFO 127.0.0.1 - - [16/May/2022 21:22:02] "GET /predict/ HTTP/1.1" 200 -
+2022-05-16 21:22:02,797 INFO 127.0.0.1 - - [16/May/2022 21:22:02] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:22:02,808 INFO 127.0.0.1 - - [16/May/2022 21:22:02] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:22:02,811 INFO 127.0.0.1 - - [16/May/2022 21:22:02] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:22:02,820 INFO 127.0.0.1 - - [16/May/2022 21:22:02] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:22:02,829 INFO 127.0.0.1 - - [16/May/2022 21:22:02] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:22:02,847 INFO 127.0.0.1 - - [16/May/2022 21:22:02] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:22:04,548 INFO 127.0.0.1 - - [16/May/2022 21:22:04] "GET / HTTP/1.1" 200 -
+2022-05-16 21:22:04,903 INFO 127.0.0.1 - - [16/May/2022 21:22:04] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-05-16 21:22:04,934 INFO 127.0.0.1 - - [16/May/2022 21:22:04] "GET /static/assets/fonts/ionicons.min.css HTTP/1.1" 200 -
+2022-05-16 21:22:04,945 INFO 127.0.0.1 - - [16/May/2022 21:22:04] "GET /static/assets/css/styles.css HTTP/1.1" 200 -
+2022-05-16 21:22:04,954 INFO 127.0.0.1 - - [16/May/2022 21:22:04] "GET /static/assets/css/footer-basic.css HTTP/1.1" 200 -
+2022-05-16 21:22:04,967 INFO 127.0.0.1 - - [16/May/2022 21:22:04] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:22:04,967 INFO 127.0.0.1 - - [16/May/2022 21:22:04] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:22:06,399 INFO 127.0.0.1 - - [16/May/2022 21:22:06] "GET /predict/ HTTP/1.1" 200 -
+2022-05-16 21:22:06,818 INFO 127.0.0.1 - - [16/May/2022 21:22:06] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:22:06,828 INFO 127.0.0.1 - - [16/May/2022 21:22:06] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:22:06,843 INFO 127.0.0.1 - - [16/May/2022 21:22:06] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:22:06,861 INFO 127.0.0.1 - - [16/May/2022 21:22:06] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:22:06,863 INFO 127.0.0.1 - - [16/May/2022 21:22:06] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:22:06,866 INFO 127.0.0.1 - - [16/May/2022 21:22:06] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:22:12,396 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 21:22:12,584 INFO  * Restarting with stat
+2022-05-16 21:22:14,758 WARNING  * Debugger is active!
+2022-05-16 21:22:14,785 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:22:15,160 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:22:17,166 INFO 127.0.0.1 - - [16/May/2022 21:22:17] "GET /predict/ HTTP/1.1" 200 -
+2022-05-16 21:22:17,866 INFO 127.0.0.1 - - [16/May/2022 21:22:17] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-05-16 21:22:17,933 INFO 127.0.0.1 - - [16/May/2022 21:22:17] "GET /static/assets/fonts/ionicons.min.css HTTP/1.1" 200 -
+2022-05-16 21:22:18,008 INFO 127.0.0.1 - - [16/May/2022 21:22:18] "GET /static/assets/css/styles.css HTTP/1.1" 200 -
+2022-05-16 21:22:18,080 INFO 127.0.0.1 - - [16/May/2022 21:22:18] "GET /static/assets/css/footer-basic.css HTTP/1.1" 200 -
+2022-05-16 21:22:18,092 INFO 127.0.0.1 - - [16/May/2022 21:22:18] "GET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-05-16 21:22:18,177 INFO 127.0.0.1 - - [16/May/2022 21:22:18] "GET /static/assets/bootstrap/js/main.js HTTP/1.1" 200 -
+2022-05-16 21:22:18,230 INFO 127.0.0.1 - - [16/May/2022 21:22:18] "GET /static/assets/fonts/favicon.ico HTTP/1.1" 200 -
+2022-05-16 21:22:20,477 INFO 127.0.0.1 - - [16/May/2022 21:22:20] "GET /predict/ HTTP/1.1" 200 -
+2022-05-16 21:22:20,483 INFO 127.0.0.1 - - [16/May/2022 21:22:20] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2022-05-16 21:22:21,014 INFO 127.0.0.1 - - [16/May/2022 21:22:21] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-05-16 21:22:21,026 INFO 127.0.0.1 - - [16/May/2022 21:22:21] "GET /static/assets/fonts/ionicons.min.css HTTP/1.1" 200 -
+2022-05-16 21:22:21,038 INFO 127.0.0.1 - - [16/May/2022 21:22:21] "GET /static/assets/css/styles.css HTTP/1.1" 200 -
+2022-05-16 21:22:21,056 INFO 127.0.0.1 - - [16/May/2022 21:22:21] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:22:21,066 INFO 127.0.0.1 - - [16/May/2022 21:22:21] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:22:21,069 INFO 127.0.0.1 - - [16/May/2022 21:22:21] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:35:43,025 INFO 127.0.0.1 - - [16/May/2022 21:35:43] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+2022-05-16 21:35:43,049 INFO 127.0.0.1 - - [16/May/2022 21:35:43] "GET /predict/ HTTP/1.1" 200 -
+2022-05-16 21:35:43,636 INFO 127.0.0.1 - - [16/May/2022 21:35:43] "GET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-05-16 21:35:43,640 INFO 127.0.0.1 - - [16/May/2022 21:35:43] "GET /static/assets/fonts/ionicons.min.css HTTP/1.1" 200 -
+2022-05-16 21:35:43,650 INFO 127.0.0.1 - - [16/May/2022 21:35:43] "GET /static/assets/css/styles.css HTTP/1.1" 200 -
+2022-05-16 21:35:43,659 INFO 127.0.0.1 - - [16/May/2022 21:35:43] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:35:43,666 INFO 127.0.0.1 - - [16/May/2022 21:35:43] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:35:43,673 INFO 127.0.0.1 - - [16/May/2022 21:35:43] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:35:43,876 INFO 127.0.0.1 - - [16/May/2022 21:35:43] "GET /static/assets/fonts/favicon.ico HTTP/1.1" 200 -
+2022-05-16 21:35:45,458 INFO 127.0.0.1 - - [16/May/2022 21:35:45] "GET / HTTP/1.1" 200 -
+2022-05-16 21:35:46,032 INFO 127.0.0.1 - - [16/May/2022 21:35:46] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:35:46,049 INFO 127.0.0.1 - - [16/May/2022 21:35:46] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:35:46,062 INFO 127.0.0.1 - - [16/May/2022 21:35:46] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:35:46,075 INFO 127.0.0.1 - - [16/May/2022 21:35:46] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:35:46,079 INFO 127.0.0.1 - - [16/May/2022 21:35:46] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:35:46,097 INFO 127.0.0.1 - - [16/May/2022 21:35:46] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:35:47,175 INFO 127.0.0.1 - - [16/May/2022 21:35:47] "[35m[1mGET /design HTTP/1.1[0m" 500 -
+2022-05-16 21:35:47,551 INFO 127.0.0.1 - - [16/May/2022 21:35:47] "GET /design?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-16 21:35:47,563 INFO 127.0.0.1 - - [16/May/2022 21:35:47] "GET /design?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-16 21:35:48,181 INFO 127.0.0.1 - - [16/May/2022 21:35:48] "GET /design?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 21:36:41,648 INFO  * Restarting with stat
+2022-05-16 21:36:43,775 WARNING  * Debugger is active!
+2022-05-16 21:36:43,790 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:36:44,072 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:37:50,714 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 21:37:51,248 INFO  * Restarting with stat
+2022-05-16 21:37:57,555 WARNING  * Debugger is active!
+2022-05-16 21:37:57,633 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:37:58,388 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:38:12,930 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 21:38:13,060 INFO  * Restarting with stat
+2022-05-16 21:38:15,175 WARNING  * Debugger is active!
+2022-05-16 21:38:15,196 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:38:15,693 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:38:17,238 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 21:38:17,379 INFO  * Restarting with stat
+2022-05-16 21:38:19,549 WARNING  * Debugger is active!
+2022-05-16 21:38:19,565 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:38:19,821 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:38:36,655 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 21:38:36,786 INFO  * Restarting with stat
+2022-05-16 21:38:38,233 WARNING  * Debugger is active!
+2022-05-16 21:38:38,249 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:38:38,518 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:38:41,445 INFO 127.0.0.1 - - [16/May/2022 21:38:41] "[35m[1mGET /design HTTP/1.1[0m" 500 -
+2022-05-16 21:38:42,026 INFO 127.0.0.1 - - [16/May/2022 21:38:42] "GET /design?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-16 21:38:42,030 INFO 127.0.0.1 - - [16/May/2022 21:38:42] "GET /design?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-16 21:38:42,127 INFO 127.0.0.1 - - [16/May/2022 21:38:42] "GET /design?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 21:39:53,005 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 21:39:53,220 INFO  * Restarting with stat
+2022-05-16 21:39:55,272 WARNING  * Debugger is active!
+2022-05-16 21:39:55,291 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:39:55,560 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:39:55,745 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 21:39:55,903 INFO  * Restarting with stat
+2022-05-16 21:39:57,657 WARNING  * Debugger is active!
+2022-05-16 21:39:57,671 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:39:57,878 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:39:58,475 INFO 127.0.0.1 - - [16/May/2022 21:39:58] "GET /design HTTP/1.1" 200 -
+2022-05-16 21:39:59,163 INFO 127.0.0.1 - - [16/May/2022 21:39:59] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:39:59,260 INFO 127.0.0.1 - - [16/May/2022 21:39:59] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:39:59,299 INFO 127.0.0.1 - - [16/May/2022 21:39:59] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:39:59,395 INFO 127.0.0.1 - - [16/May/2022 21:39:59] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:39:59,501 INFO 127.0.0.1 - - [16/May/2022 21:39:59] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:39:59,529 INFO 127.0.0.1 - - [16/May/2022 21:39:59] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:40:02,323 INFO 127.0.0.1 - - [16/May/2022 21:40:02] "GET /predict/ HTTP/1.1" 200 -
+2022-05-16 21:40:02,692 INFO 127.0.0.1 - - [16/May/2022 21:40:02] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:02,719 INFO 127.0.0.1 - - [16/May/2022 21:40:02] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:02,728 INFO 127.0.0.1 - - [16/May/2022 21:40:02] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:02,741 INFO 127.0.0.1 - - [16/May/2022 21:40:02] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:40:02,741 INFO 127.0.0.1 - - [16/May/2022 21:40:02] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:02,749 INFO 127.0.0.1 - - [16/May/2022 21:40:02] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:40:07,222 INFO 127.0.0.1 - - [16/May/2022 21:40:07] "GET /predict/ HTTP/1.1" 200 -
+2022-05-16 21:40:07,610 INFO 127.0.0.1 - - [16/May/2022 21:40:07] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:07,621 INFO 127.0.0.1 - - [16/May/2022 21:40:07] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:07,633 INFO 127.0.0.1 - - [16/May/2022 21:40:07] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:07,634 INFO 127.0.0.1 - - [16/May/2022 21:40:07] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:07,639 INFO 127.0.0.1 - - [16/May/2022 21:40:07] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:40:07,650 INFO 127.0.0.1 - - [16/May/2022 21:40:07] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:40:18,375 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 21:40:18,503 INFO  * Restarting with stat
+2022-05-16 21:40:19,920 WARNING  * Debugger is active!
+2022-05-16 21:40:19,936 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:40:20,194 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:40:20,247 INFO 127.0.0.1 - - [16/May/2022 21:40:20] "GET / HTTP/1.1" 200 -
+2022-05-16 21:40:21,105 INFO 127.0.0.1 - - [16/May/2022 21:40:21] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:21,110 INFO 127.0.0.1 - - [16/May/2022 21:40:21] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:21,132 INFO 127.0.0.1 - - [16/May/2022 21:40:21] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:21,158 INFO 127.0.0.1 - - [16/May/2022 21:40:21] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:40:21,161 INFO 127.0.0.1 - - [16/May/2022 21:40:21] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:21,167 INFO 127.0.0.1 - - [16/May/2022 21:40:21] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:40:22,849 INFO 127.0.0.1 - - [16/May/2022 21:40:22] "GET /predict/ HTTP/1.1" 200 -
+2022-05-16 21:40:23,279 INFO 127.0.0.1 - - [16/May/2022 21:40:23] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:23,284 INFO 127.0.0.1 - - [16/May/2022 21:40:23] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:23,294 INFO 127.0.0.1 - - [16/May/2022 21:40:23] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:40:23,302 INFO 127.0.0.1 - - [16/May/2022 21:40:23] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:40:23,305 INFO 127.0.0.1 - - [16/May/2022 21:40:23] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:23,306 INFO 127.0.0.1 - - [16/May/2022 21:40:23] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:40:34,542 INFO 127.0.0.1 - - [16/May/2022 21:40:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2022-05-16 21:40:34,877 INFO 127.0.0.1 - - [16/May/2022 21:40:34] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-16 21:40:34,886 INFO 127.0.0.1 - - [16/May/2022 21:40:34] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-16 21:40:34,959 INFO 127.0.0.1 - - [16/May/2022 21:40:34] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 21:40:52,947 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 21:40:53,080 INFO  * Restarting with stat
+2022-05-16 21:40:54,351 WARNING  * Debugger is active!
+2022-05-16 21:40:54,364 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:40:54,622 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:41:04,774 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 21:41:04,899 INFO  * Restarting with stat
+2022-05-16 21:41:06,199 WARNING  * Debugger is active!
+2022-05-16 21:41:06,215 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:41:06,437 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:41:18,280 INFO 127.0.0.1 - - [16/May/2022 21:41:18] "GET / HTTP/1.1" 200 -
+2022-05-16 21:41:19,518 INFO 127.0.0.1 - - [16/May/2022 21:41:19] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:19,636 INFO 127.0.0.1 - - [16/May/2022 21:41:19] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:41:19,771 INFO 127.0.0.1 - - [16/May/2022 21:41:19] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:19,872 INFO 127.0.0.1 - - [16/May/2022 21:41:19] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:19,880 INFO 127.0.0.1 - - [16/May/2022 21:41:19] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:20,009 INFO 127.0.0.1 - - [16/May/2022 21:41:20] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:41:20,955 INFO 127.0.0.1 - - [16/May/2022 21:41:20] "GET / HTTP/1.1" 200 -
+2022-05-16 21:41:21,495 INFO 127.0.0.1 - - [16/May/2022 21:41:21] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:21,511 INFO 127.0.0.1 - - [16/May/2022 21:41:21] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:21,512 INFO 127.0.0.1 - - [16/May/2022 21:41:21] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:21,536 INFO 127.0.0.1 - - [16/May/2022 21:41:21] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:21,537 INFO 127.0.0.1 - - [16/May/2022 21:41:21] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:41:21,538 INFO 127.0.0.1 - - [16/May/2022 21:41:21] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:41:23,068 INFO 127.0.0.1 - - [16/May/2022 21:41:23] "GET /predict HTTP/1.1" 200 -
+2022-05-16 21:41:23,460 INFO 127.0.0.1 - - [16/May/2022 21:41:23] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:23,469 INFO 127.0.0.1 - - [16/May/2022 21:41:23] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:23,481 INFO 127.0.0.1 - - [16/May/2022 21:41:23] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:23,487 INFO 127.0.0.1 - - [16/May/2022 21:41:23] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:23,498 INFO 127.0.0.1 - - [16/May/2022 21:41:23] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:41:23,502 INFO 127.0.0.1 - - [16/May/2022 21:41:23] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:41:25,095 INFO 127.0.0.1 - - [16/May/2022 21:41:25] "GET /predict HTTP/1.1" 200 -
+2022-05-16 21:41:25,559 INFO 127.0.0.1 - - [16/May/2022 21:41:25] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:25,568 INFO 127.0.0.1 - - [16/May/2022 21:41:25] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:25,580 INFO 127.0.0.1 - - [16/May/2022 21:41:25] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:25,586 INFO 127.0.0.1 - - [16/May/2022 21:41:25] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:41:25,587 INFO 127.0.0.1 - - [16/May/2022 21:41:25] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:41:25,595 INFO 127.0.0.1 - - [16/May/2022 21:41:25] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:42:05,060 INFO 127.0.0.1 - - [16/May/2022 21:42:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2022-05-16 21:42:05,543 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 21:42:06,265 INFO  * Restarting with stat
+2022-05-16 21:42:09,393 WARNING  * Debugger is active!
+2022-05-16 21:42:09,409 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:42:09,769 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:42:10,133 INFO 127.0.0.1 - - [16/May/2022 21:42:10] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-16 21:42:10,135 INFO 127.0.0.1 - - [16/May/2022 21:42:10] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-16 21:42:10,240 INFO 127.0.0.1 - - [16/May/2022 21:42:10] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 21:42:10,289 INFO 127.0.0.1 - - [16/May/2022 21:42:10] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 21:42:11,338 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 21:42:11,521 INFO  * Restarting with stat
+2022-05-16 21:42:13,425 WARNING  * Debugger is active!
+2022-05-16 21:42:13,450 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:42:13,751 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:42:18,117 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 21:42:18,302 INFO  * Restarting with stat
+2022-05-16 21:42:21,106 WARNING  * Debugger is active!
+2022-05-16 21:42:21,162 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:42:21,562 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:42:28,262 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 21:42:28,390 INFO  * Restarting with stat
+2022-05-16 21:42:29,703 WARNING  * Debugger is active!
+2022-05-16 21:42:29,719 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:42:30,029 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:42:31,493 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 21:42:31,646 INFO  * Restarting with stat
+2022-05-16 21:42:33,858 WARNING  * Debugger is active!
+2022-05-16 21:42:33,882 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:42:34,289 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:42:40,756 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 21:42:40,942 INFO  * Restarting with stat
+2022-05-16 21:42:42,609 WARNING  * Debugger is active!
+2022-05-16 21:42:42,622 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:42:42,844 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:42:51,984 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 21:42:52,210 INFO  * Restarting with stat
+2022-05-16 21:42:53,900 WARNING  * Debugger is active!
+2022-05-16 21:42:53,916 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:42:54,225 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:42:56,980 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 21:42:57,097 INFO  * Restarting with stat
+2022-05-16 21:42:58,544 WARNING  * Debugger is active!
+2022-05-16 21:42:58,565 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:42:58,832 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:43:00,437 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 21:43:00,804 INFO  * Restarting with stat
+2022-05-16 21:43:02,436 WARNING  * Debugger is active!
+2022-05-16 21:43:02,452 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:43:02,699 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:43:06,656 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 21:43:06,892 INFO  * Restarting with stat
+2022-05-16 21:43:20,608 INFO  * Restarting with stat
+2022-05-16 21:43:21,929 WARNING  * Debugger is active!
+2022-05-16 21:43:21,943 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:43:22,144 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 21:43:34,948 INFO C:\Users\StudentRocks\AppData\Local\Programs\Python\Python310\python310.zip
+2022-05-16 21:43:34,949 INFO C:\Users\StudentRocks\Desktop\jamia\appred\appred
+2022-05-16 21:43:34,949 INFO .
+2022-05-16 21:43:34,949 INFO C:\Users\StudentRocks\Desktop\jamia\appred\appred
+2022-05-16 21:43:36,950 INFO 127.0.0.1 - - [16/May/2022 21:43:36] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2022-05-16 21:43:37,547 INFO 127.0.0.1 - - [16/May/2022 21:43:37] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-16 21:43:37,564 INFO 127.0.0.1 - - [16/May/2022 21:43:37] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-16 21:43:37,628 INFO 127.0.0.1 - - [16/May/2022 21:43:37] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-16 21:43:39,820 INFO C:\Users\StudentRocks\AppData\Local\Programs\Python\Python310\python310.zip
+2022-05-16 21:43:39,821 INFO C:\Users\StudentRocks\Desktop\jamia\appred\appred
+2022-05-16 21:43:39,821 INFO .
+2022-05-16 21:43:39,821 INFO C:\Users\StudentRocks\Desktop\jamia\appred\appred
+2022-05-16 21:43:39,843 INFO 127.0.0.1 - - [16/May/2022 21:43:39] "GET /predict HTTP/1.1" 200 -
+2022-05-16 21:43:44,021 INFO C:\Users\StudentRocks\AppData\Local\Programs\Python\Python310\python310.zip
+2022-05-16 21:43:44,021 INFO C:\Users\StudentRocks\Desktop\jamia\appred\appred
+2022-05-16 21:43:44,021 INFO .
+2022-05-16 21:43:44,021 INFO C:\Users\StudentRocks\Desktop\jamia\appred\appred
+2022-05-16 21:43:44,023 INFO 127.0.0.1 - - [16/May/2022 21:43:44] "GET /predict HTTP/1.1" 200 -
+2022-05-16 21:43:44,456 INFO 127.0.0.1 - - [16/May/2022 21:43:44] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:43:44,462 INFO 127.0.0.1 - - [16/May/2022 21:43:44] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-16 21:43:44,476 INFO 127.0.0.1 - - [16/May/2022 21:43:44] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-16 21:43:44,480 INFO 127.0.0.1 - - [16/May/2022 21:43:44] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-16 21:43:44,490 INFO 127.0.0.1 - - [16/May/2022 21:43:44] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-16 21:43:44,507 INFO 127.0.0.1 - - [16/May/2022 21:43:44] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-16 21:44:20,888 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\ML_All_Datset_MRMR.py', reloading
+2022-05-16 21:44:21,421 INFO  * Restarting with stat
+2022-05-16 21:44:23,504 WARNING  * Debugger is active!
+2022-05-16 21:44:23,522 INFO  * Debugger PIN: 331-082-004
+2022-05-16 21:44:23,865 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-16 22:23:42,005 INFO  * Detected change in 'c:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-16 22:23:42,358 INFO  * Restarting with stat
+2022-05-16 22:23:44,929 WARNING  * Debugger is active!
+2022-05-16 22:23:44,943 INFO  * Debugger PIN: 331-082-004
+2022-05-16 22:23:45,237 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:10:04,961 INFO  * Restarting with stat
+2022-05-17 19:10:06,549 WARNING  * Debugger is active!
+2022-05-17 19:10:06,585 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:10:06,847 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:16:25,478 INFO 127.0.0.1 - - [17/May/2022 19:16:25] "GET / HTTP/1.1" 200 -
+2022-05-17 19:16:26,044 INFO 127.0.0.1 - - [17/May/2022 19:16:26] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-17 19:16:26,058 INFO 127.0.0.1 - - [17/May/2022 19:16:26] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:16:26,116 INFO 127.0.0.1 - - [17/May/2022 19:16:26] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:16:26,119 INFO 127.0.0.1 - - [17/May/2022 19:16:26] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-17 19:16:26,144 INFO 127.0.0.1 - - [17/May/2022 19:16:26] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-17 19:16:26,190 INFO 127.0.0.1 - - [17/May/2022 19:16:26] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-17 19:16:37,352 INFO 127.0.0.1 - - [17/May/2022 19:16:37] "GET /predict HTTP/1.1" 200 -
+2022-05-17 19:16:37,497 INFO 127.0.0.1 - - [17/May/2022 19:16:37] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:16:37,506 INFO 127.0.0.1 - - [17/May/2022 19:16:37] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:16:37,508 INFO 127.0.0.1 - - [17/May/2022 19:16:37] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-17 19:16:37,516 INFO 127.0.0.1 - - [17/May/2022 19:16:37] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-17 19:16:37,518 INFO 127.0.0.1 - - [17/May/2022 19:16:37] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-17 19:16:37,533 INFO 127.0.0.1 - - [17/May/2022 19:16:37] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-17 19:18:07,798 INFO  * Restarting with stat
+2022-05-17 19:18:08,276 WARNING  * Debugger is active!
+2022-05-17 19:18:08,290 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:18:08,384 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:18:13,314 INFO 127.0.0.1 - - [17/May/2022 19:18:13] "GET /predict HTTP/1.1" 200 -
+2022-05-17 19:18:13,832 INFO 127.0.0.1 - - [17/May/2022 19:18:13] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:18:13,849 INFO 127.0.0.1 - - [17/May/2022 19:18:13] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-17 19:18:13,868 INFO 127.0.0.1 - - [17/May/2022 19:18:13] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-17 19:18:13,883 INFO 127.0.0.1 - - [17/May/2022 19:18:13] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-17 19:18:13,892 INFO 127.0.0.1 - - [17/May/2022 19:18:13] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:18:13,926 INFO 127.0.0.1 - - [17/May/2022 19:18:13] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-17 19:18:14,182 INFO 127.0.0.1 - - [17/May/2022 19:18:14] "[36mGET /static/assets/fonts/favicon.ico HTTP/1.1[0m" 304 -
+2022-05-17 19:19:03,508 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-17 19:19:03,659 INFO  * Restarting with stat
+2022-05-17 19:19:04,189 WARNING  * Debugger is active!
+2022-05-17 19:19:04,203 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:19:04,300 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:19:04,344 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-17 19:19:04,397 INFO  * Restarting with stat
+2022-05-17 19:19:04,941 WARNING  * Debugger is active!
+2022-05-17 19:19:04,957 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:19:05,073 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:19:11,845 INFO  * Restarting with stat
+2022-05-17 19:19:12,329 WARNING  * Debugger is active!
+2022-05-17 19:19:12,344 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:19:12,450 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:19:14,207 INFO 127.0.0.1 - - [17/May/2022 19:19:14] "GET /predict HTTP/1.1" 200 -
+2022-05-17 19:19:14,703 INFO 127.0.0.1 - - [17/May/2022 19:19:14] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:19:14,745 INFO 127.0.0.1 - - [17/May/2022 19:19:14] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:19:14,786 INFO 127.0.0.1 - - [17/May/2022 19:19:14] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-17 19:19:14,793 INFO 127.0.0.1 - - [17/May/2022 19:19:14] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-17 19:19:14,838 INFO 127.0.0.1 - - [17/May/2022 19:19:14] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-17 19:19:14,855 INFO 127.0.0.1 - - [17/May/2022 19:19:14] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-17 19:19:15,106 INFO 127.0.0.1 - - [17/May/2022 19:19:15] "[36mGET /static/assets/fonts/favicon.ico HTTP/1.1[0m" 304 -
+2022-05-17 19:20:00,188 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-17 19:20:00,242 INFO  * Restarting with stat
+2022-05-17 19:20:08,338 INFO  * Restarting with stat
+2022-05-17 19:20:08,802 WARNING  * Debugger is active!
+2022-05-17 19:20:08,815 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:20:08,906 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:20:11,924 INFO 127.0.0.1 - - [17/May/2022 19:20:11] "GET /predict HTTP/1.1" 200 -
+2022-05-17 19:20:12,301 INFO 127.0.0.1 - - [17/May/2022 19:20:12] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:20:12,426 INFO 127.0.0.1 - - [17/May/2022 19:20:12] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:20:12,447 INFO 127.0.0.1 - - [17/May/2022 19:20:12] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-17 19:20:12,462 INFO 127.0.0.1 - - [17/May/2022 19:20:12] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-17 19:20:12,482 INFO 127.0.0.1 - - [17/May/2022 19:20:12] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-17 19:20:12,526 INFO 127.0.0.1 - - [17/May/2022 19:20:12] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-17 19:20:12,739 INFO 127.0.0.1 - - [17/May/2022 19:20:12] "[36mGET /static/assets/fonts/favicon.ico HTTP/1.1[0m" 304 -
+2022-05-17 19:20:40,126 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-17 19:20:40,192 INFO  * Restarting with stat
+2022-05-17 19:20:40,803 WARNING  * Debugger is active!
+2022-05-17 19:20:40,827 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:20:40,973 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:21:32,267 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-17 19:21:32,314 INFO  * Restarting with stat
+2022-05-17 19:30:36,440 INFO  * Restarting with stat
+2022-05-17 19:30:37,660 WARNING  * Debugger is active!
+2022-05-17 19:30:37,674 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:30:37,880 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:31:03,770 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-17 19:31:03,918 INFO  * Restarting with stat
+2022-05-17 19:31:05,420 WARNING  * Debugger is active!
+2022-05-17 19:31:05,442 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:31:05,729 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:31:08,454 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-17 19:31:08,653 INFO  * Restarting with stat
+2022-05-17 19:31:10,204 WARNING  * Debugger is active!
+2022-05-17 19:31:10,218 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:31:10,437 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:31:14,828 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-17 19:31:14,981 INFO  * Restarting with stat
+2022-05-17 19:31:16,304 WARNING  * Debugger is active!
+2022-05-17 19:31:16,318 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:31:16,551 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:36:02,091 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-17 19:36:02,260 INFO  * Restarting with stat
+2022-05-17 19:38:09,109 INFO  * Restarting with stat
+2022-05-17 19:38:10,515 WARNING  * Debugger is active!
+2022-05-17 19:38:10,531 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:38:10,797 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:38:12,061 INFO 127.0.0.1 - - [17/May/2022 19:38:12] "GET /predict HTTP/1.1" 200 -
+2022-05-17 19:38:12,530 INFO 127.0.0.1 - - [17/May/2022 19:38:12] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:38:12,564 INFO 127.0.0.1 - - [17/May/2022 19:38:12] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:38:12,738 INFO 127.0.0.1 - - [17/May/2022 19:38:12] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-17 19:38:12,744 INFO 127.0.0.1 - - [17/May/2022 19:38:12] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-17 19:38:12,753 INFO 127.0.0.1 - - [17/May/2022 19:38:12] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-17 19:38:12,783 INFO 127.0.0.1 - - [17/May/2022 19:38:12] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-17 19:38:15,627 INFO 127.0.0.1 - - [17/May/2022 19:38:15] "POST /predict HTTP/1.1" 200 -
+2022-05-17 19:38:15,699 INFO 127.0.0.1 - - [17/May/2022 19:38:15] "[36mGET /static/assets/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:38:15,704 INFO 127.0.0.1 - - [17/May/2022 19:38:15] "[36mGET /static/assets/fonts/ionicons.min.css HTTP/1.1[0m" 304 -
+2022-05-17 19:38:15,708 INFO 127.0.0.1 - - [17/May/2022 19:38:15] "[36mGET /static/assets/css/styles.css HTTP/1.1[0m" 304 -
+2022-05-17 19:38:15,716 INFO 127.0.0.1 - - [17/May/2022 19:38:15] "[36mGET /static/assets/css/footer-basic.css HTTP/1.1[0m" 304 -
+2022-05-17 19:38:15,716 INFO 127.0.0.1 - - [17/May/2022 19:38:15] "[36mGET /static/assets/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-17 19:38:15,724 INFO 127.0.0.1 - - [17/May/2022 19:38:15] "[36mGET /static/assets/bootstrap/js/main.js HTTP/1.1[0m" 304 -
+2022-05-17 19:38:22,246 INFO 127.0.0.1 - - [17/May/2022 19:38:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2022-05-17 19:38:22,386 INFO 127.0.0.1 - - [17/May/2022 19:38:22] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-17 19:38:22,398 INFO 127.0.0.1 - - [17/May/2022 19:38:22] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-17 19:38:22,701 INFO 127.0.0.1 - - [17/May/2022 19:38:22] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-17 19:38:22,789 INFO 127.0.0.1 - - [17/May/2022 19:38:22] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-17 19:38:33,612 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\appred.py', reloading
+2022-05-17 19:38:33,928 INFO  * Restarting with stat
+2022-05-17 19:38:35,645 WARNING  * Debugger is active!
+2022-05-17 19:38:35,658 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:38:35,870 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:38:40,773 INFO  * Restarting with stat
+2022-05-17 19:38:42,042 WARNING  * Debugger is active!
+2022-05-17 19:38:42,056 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:38:42,270 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:39:05,559 INFO 127.0.0.1 - - [17/May/2022 19:39:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2022-05-17 19:39:05,827 INFO 127.0.0.1 - - [17/May/2022 19:39:05] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-17 19:39:05,828 INFO 127.0.0.1 - - [17/May/2022 19:39:05] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-17 19:39:05,918 INFO 127.0.0.1 - - [17/May/2022 19:39:05] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-17 19:39:06,190 INFO 127.0.0.1 - - [17/May/2022 19:39:06] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-17 19:39:34,845 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\svc_all_features.py', reloading
+2022-05-17 19:39:35,393 INFO  * Restarting with stat
+2022-05-17 19:39:37,837 WARNING  * Debugger is active!
+2022-05-17 19:39:37,918 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:39:38,461 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:39:42,770 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\svc_all_features.py', reloading
+2022-05-17 19:39:42,932 INFO  * Restarting with stat
+2022-05-17 19:47:01,655 INFO  * Restarting with stat
+2022-05-17 19:47:03,351 WARNING  * Debugger is active!
+2022-05-17 19:47:03,400 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:47:03,903 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:47:11,417 INFO 127.0.0.1 - - [17/May/2022 19:47:11] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2022-05-17 19:47:11,727 INFO 127.0.0.1 - - [17/May/2022 19:47:11] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-17 19:47:11,734 INFO 127.0.0.1 - - [17/May/2022 19:47:11] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-17 19:47:11,910 INFO 127.0.0.1 - - [17/May/2022 19:47:11] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-17 19:47:12,110 INFO 127.0.0.1 - - [17/May/2022 19:47:12] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-17 19:50:37,322 INFO  * Restarting with stat
+2022-05-17 19:50:38,768 WARNING  * Debugger is active!
+2022-05-17 19:50:38,783 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:50:39,026 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-05-17 19:50:46,725 INFO 127.0.0.1 - - [17/May/2022 19:50:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2022-05-17 19:50:47,131 INFO 127.0.0.1 - - [17/May/2022 19:50:47] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-17 19:50:47,132 INFO 127.0.0.1 - - [17/May/2022 19:50:47] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-17 19:50:47,511 INFO 127.0.0.1 - - [17/May/2022 19:50:47] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-17 19:50:47,738 INFO 127.0.0.1 - - [17/May/2022 19:50:47] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-17 19:51:49,526 INFO  * Detected change in 'C:\\Users\\StudentRocks\\Desktop\\jamia\\appred\\appred\\app\\svc_features\\nonAmp_features.py', reloading
+2022-05-17 19:51:50,425 INFO  * Restarting with stat
+2022-05-17 19:51:52,459 WARNING  * Debugger is active!
+2022-05-17 19:51:52,473 INFO  * Debugger PIN: 331-082-004
+2022-05-17 19:51:52,688 INFO  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
