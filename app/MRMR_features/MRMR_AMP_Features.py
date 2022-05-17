@@ -1,5 +1,5 @@
 import pandas as pd
-import math, os
+import math, os, sys
 import numpy as np
 import string
 invalid_char = set(string.punctuation)
@@ -96,8 +96,8 @@ def amp_DDOR(df) :
 ################# QSO ############
 def amp_qos(df,gap,w=0.1):
     std = list("KL")
-    mat1 = pd.read_csv(os.path.join("modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
-    mat2 = pd.read_csv(os.path.join("modal_csv", "Grantham.csv"), index_col = 'Name')
+    mat1 = pd.read_csv(os.path.join(sys.path[0], "modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
+    mat2 = pd.read_csv(os.path.join(sys.path[0], "modal_csv", "Grantham.csv"), index_col = 'Name')
     s1 = []
     s2 = []
     for i in range(0,len(df)):
@@ -138,7 +138,7 @@ def amp_val(AA_1, AA_2, aa, mat):
     return sum([(mat[i][aa[AA_1]] - mat[i][aa[AA_2]]) ** 2 for i in range(len(mat))]) / len(mat)
 def amp_paac_1(df,lambdaval,w=0.05):
     std_P = list("ACDEFGHIKLMNPQRSTVWY")
-    data1 = pd.read_csv(os.path.join("modal_csv","data"), sep = "\t")
+    data1 = pd.read_csv(os.path.join(sys.path[0], "modal_csv","data"), sep = "\t")
     dd = []
     cc = []
     pseudo = []
@@ -167,7 +167,7 @@ def amp_paac_1(df,lambdaval,w=0.05):
 #################### APAAC #####################
 
 def amp_apaac_1(df,lambdaval,w=0.05):
-    data1 = pd.read_csv(os.path.join("modal_csv", "data"), sep = "\t")
+    data1 = pd.read_csv(os.path.join(sys.path[0], "modal_csv", "data"), sep = "\t")
     std_AP = list("ACDEFGHIKLMNPQRSTVWY")
     dd = []
     cc = []
@@ -201,7 +201,7 @@ def amp_apaac_1(df,lambdaval,w=0.05):
 
 ################### ATC ##########################    
 def amp_atc(df):
-    atom=pd.read_csv(os.path.join("modal_csv","atom.csv"),header=None)
+    atom=pd.read_csv(os.path.join(sys.path[0], "modal_csv","atom.csv"),header=None)
     i = 0
     C_atom = []
     H_atom = []
@@ -296,7 +296,8 @@ def amp_atc(df):
     return final[["ATC_H","ATC_N"]]
 
 ############### SEP ################
-PCP= pd.read_csv(os.path.join('modal_csv', 'PhysicoChemical.csv'), header=None) 
+import sys
+PCP= pd.read_csv(os.path.join(sys.path[0],'modal_csv', 'PhysicoChemical.csv'), header=None) 
 headers = ['Positively charged','Negatively charged','Neutral charged','Polarity',
 'Non polarity','Aliphaticity','Cyclic','Aromaticity','Acidicity','Basicity',
 'Neutral (ph)','Hydrophobicity','Hydrophilicity','Neutral','Hydroxylic',
@@ -405,7 +406,7 @@ def amp_sep_wp(df):
 ################# ctd #####################
 
 def amp_ctd(df):
-    attr=pd.read_csv(os.path.join("modal_csv", "aa_attr_group.csv"), sep="\t")
+    attr=pd.read_csv(os.path.join(sys.path[0], "modal_csv", "aa_attr_group.csv"), sep="\t")
     n = 0
     stt1 = []
     m = 1

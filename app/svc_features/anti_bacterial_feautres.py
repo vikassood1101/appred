@@ -1,5 +1,5 @@
 
-import pandas as pd, os
+import pandas as pd, os, sys
 
 ########################### ANTIBACTERIAL FEATURES ################
 
@@ -51,7 +51,7 @@ def AB_bond(df) :
     hy = []
     b2 = []
     bb = pd.DataFrame()
-    bonds=pd.read_csv(os.path.join("modal_csv", "bonds.csv"), sep = ",")
+    bonds=pd.read_csv(os.path.join(sys.path[0], "modal_csv", "bonds.csv"), sep = ",")
     for i in range(0,len(df)) :
         h = 0
         hy.append([i])
@@ -99,7 +99,7 @@ def AB_DDOR(df) :
 ########################### fifth feature CeTD ###############
 
 def AB_ctd(df):
-    attr=pd.read_csv(os.path.join("modal_csv", "aa_attr_group.csv"), sep="\t")
+    attr=pd.read_csv(os.path.join(sys.path[0], "modal_csv", "aa_attr_group.csv"), sep="\t")
     
     n = 0
     stt1 = []

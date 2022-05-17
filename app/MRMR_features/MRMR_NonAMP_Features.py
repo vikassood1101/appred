@@ -105,7 +105,7 @@ def namp_val(AA_1, AA_2, aa, mat):
     return sum([(mat[i][aa[AA_1]] - mat[i][aa[AA_2]]) ** 2 for i in range(len(mat))]) / len(mat)
 def namp_paac_1(df,lambdaval,w=0.05):
     std_P = list("ACDEFGHIKLMNPQRSTVWY")
-    data1 = pd.read_csv(os.path.join("modal_csv","data"), sep = "\t")
+    data1 = pd.read_csv(os.path.join(sys.path[0], "modal_csv","data"), sep = "\t")
     dd = []
     cc = []
     pseudo = []
@@ -134,7 +134,7 @@ def namp_paac_1(df,lambdaval,w=0.05):
 
  ############APAAC3###############
 def namp_apaac_1(df,lambdaval,w=0.05):
-    data1 = pd.read_csv(os.path.join("modal_csv","data"), sep = "\t")
+    data1 = pd.read_csv(os.path.join(sys.path[0], "modal_csv","data"), sep = "\t")
     std_AP = list("ACDEFGHIKLMNPQRSTVWY")
     dd = []
     cc = []
@@ -169,7 +169,7 @@ def namp_apaac_1(df,lambdaval,w=0.05):
 
 
 def namp_atc(df):
-    atom=pd.read_csv(os.path.join("modal_csv" , "atom.csv"),header=None)
+    atom=pd.read_csv(os.path.join(sys.path[0],"modal_csv" , "atom.csv"),header=None)
    
     i = 0
     C_atom = []
@@ -267,7 +267,7 @@ def namp_atc(df):
 ###### QSO##########
 def namp_qos(df,gap,w=0.1):
     std = list("K")
-    mat1 = pd.read_csv(os.path.join("modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
+    mat1 = pd.read_csv(os.path.join(sys.path[0],"modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
     #mat2 = pd.read_csv("/Users/nehaperiwal/Documents/23Dec2021_Webserver_Scripts/Grantham.csv", index_col = 'Name')
     s1 = []
     #s2 = []
@@ -304,7 +304,7 @@ def namp_qos(df,gap,w=0.1):
 
 ################## SOC #########
 def namp_soc(df,gap):
-    mat1 = pd.read_csv(os.path.join('', "modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
+    mat1 = pd.read_csv(os.path.join(sys.path[0], "modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
     h1 = []
     for n in range(1, gap+1):
         h1.append('SC' + str(n))
@@ -326,7 +326,7 @@ def namp_soc(df,gap):
 ############CTD #######################
 
 def namp_ctd(df):
-    attr=pd.read_csv(os.path.join("modal_csv", "aa_attr_group.csv"), sep="\t")
+    attr=pd.read_csv(os.path.join(sys.path[0], "modal_csv", "aa_attr_group.csv"), sep="\t")
     n = 0
     stt1 = []
     m = 1
@@ -467,7 +467,8 @@ def namp_ctd(df):
     return df_Comp_Transition_distribution[["CeTD_100_p_HB3","CeTD_100_p_SS2","CeTD_12_VW","CeTD_23_PO","CeTD_31_VW","CeTD_50_p_PO1","CeTD_CH1","CeTD_CH3"]]       
 
 ############################# SEP ###############
-PCP= pd.read_csv(os.path.join('modal_csv', 'PhysicoChemical.csv'), header=None) 
+import sys
+PCP= pd.read_csv(os.path.join(sys.path[0], 'modal_csv', 'PhysicoChemical.csv'), header=None) 
 headers = ['Positively charged','Negatively charged','Neutral charged','Polarity',
 'Non polarity','Aliphaticity','Cyclic','Aromaticity','Acidicity','Basicity',
 'Neutral (ph)','Hydrophobicity','Hydrophilicity','Neutral','Hydroxylic',

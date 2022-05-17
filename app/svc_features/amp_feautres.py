@@ -1,5 +1,5 @@
 
-import pandas as pd, os
+import pandas as pd, os, sys
 
 ####################### AMP ###################
 
@@ -31,7 +31,7 @@ def AMP_bond(df) :
     b2 = []
     b3 = []
     bb = pd.DataFrame()
-    bonds=pd.read_csv(os.path.join("modal_csv", "bonds.csv"), sep = ",")
+    bonds=pd.read_csv(os.path.join(sys.path[0],"modal_csv", "bonds.csv"), sep = ",")
     for i in range(0,len(df)) :
         h = 0
         S = 0
@@ -85,7 +85,7 @@ def AMP_DDOR(df) :
 ########################### fourth feature CeTD ###############
 
 def AMP_ctd(df):
-    attr=pd.read_csv(os.path.join("modal_csv", "aa_attr_group.csv"), sep="\t")
+    attr=pd.read_csv(os.path.join(sys.path[0], "modal_csv", "aa_attr_group.csv"), sep="\t")
     
     n = 0
     stt1 = []

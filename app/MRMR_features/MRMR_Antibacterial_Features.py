@@ -136,8 +136,8 @@ def ab_SE_residue_level(df):
 
 def ab_qos(df,gap,w=0.1):
     std = list("KW")
-    mat1 = pd.read_csv(os.path.join("modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
-    mat2 = pd.read_csv(os.path.join("modal_csv", "Grantham.csv"), index_col = 'Name')
+    mat1 = pd.read_csv(os.path.join(sys.path[0], "modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
+    mat2 = pd.read_csv(os.path.join(sys.path[0],"modal_csv", "Grantham.csv"), index_col = 'Name')
     s1 = []
     s2 = []
     for i in range(0,len(df)):
@@ -175,7 +175,7 @@ def ab_qos(df,gap,w=0.1):
 
 ##################CeTD##################
 def ab_ctd(df):
-    attr=pd.read_csv(os.path.join("modal_csv", "aa_attr_group.csv"), sep="\t")
+    attr=pd.read_csv(os.path.join(sys.path[0],"modal_csv", "aa_attr_group.csv"), sep="\t")
     n = 0
     stt1 = []
     m = 1
@@ -276,7 +276,8 @@ def ab_ctd(df):
     
 
 ############################# SEP ###############
-PCP= pd.read_csv(os.path.join('modal_csv', 'PhysicoChemical.csv'), header=None) 
+import sys
+PCP= pd.read_csv(os.path.join(sys.path[0], 'modal_csv', 'PhysicoChemical.csv'), header=None) 
 headers = ['Positively charged','Negatively charged','Neutral charged','Polarity',
 'Non polarity','Aliphaticity','Cyclic','Aromaticity','Acidicity','Basicity',
 'Neutral (ph)','Hydrophobicity','Hydrophilicity','Neutral','Hydroxylic',

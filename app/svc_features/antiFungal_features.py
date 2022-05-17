@@ -1,4 +1,4 @@
-import pandas as pd, os
+import pandas as pd, os, sys
 
 ############################### Antifungal ###################
 
@@ -54,7 +54,7 @@ def AF_bond(df) :
     Si = []
     b3 = []
     bb = pd.DataFrame()
-    bonds=pd.read_csv(os.path.join("modal_csv", "bonds.csv"), sep = ",")
+    bonds=pd.read_csv(os.path.join(sys.path[0], "modal_csv", "bonds.csv"), sep = ",")
     for i in range(0,len(df)) :
         S = 0
         Si.append([i])
@@ -100,7 +100,7 @@ def AF_DDOR(df) :
 ########################### fifth feature CeTD ###############
 
 def AF_ctd(df):
-    attr=pd.read_csv(os.path.join("modal_csv", "aa_attr_group.csv"), sep="\t")
+    attr=pd.read_csv(os.path.join(sys.path[0],"modal_csv", "aa_attr_group.csv"), sep="\t")
     
     n = 0
     stt1 = []

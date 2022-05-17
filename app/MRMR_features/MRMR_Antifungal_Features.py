@@ -1,6 +1,6 @@
 import pandas as pd
 from collections import Counter
-import math, os
+import math, os, sys
 import numpy as np
 import string
 invalid_char = set(string.punctuation)
@@ -159,8 +159,8 @@ def af_RAAC(df):
 ############### QOS ################
 def af_qos(df,gap,w=0.1):
     std = list("KC")
-    mat1 = pd.read_csv(os.path.join("modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
-    mat2 = pd.read_csv(os.path.join("modal_csv", "Grantham.csv"), index_col = 'Name')
+    mat1 = pd.read_csv(os.path.join(sys.path[0],"modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
+    mat2 = pd.read_csv(os.path.join(sys.path[0],"modal_csv", "Grantham.csv"), index_col = 'Name')
     s1 = []
     s2 = []
     for i in range(0,len(df)):
@@ -219,7 +219,7 @@ def af_SE_residue_level(df):
 ################ APAAAC ############
 
 def af_apaac_1(df,lambdaval,w=0.05):
-    data1 = pd.read_csv(os.path.join("modal_csv","data"), sep = "\t")
+    data1 = pd.read_csv(os.path.join(sys.path[0],"modal_csv","data"), sep = "\t")
     std_AP = list("ACDEFGHIKLMNPQRSTVWY")
     dd = []
     cc = []
@@ -252,7 +252,7 @@ def af_apaac_1(df,lambdaval,w=0.05):
 
 ######################## SOC ##################
 def af_soc(df,gap):
-    mat2 = pd.read_csv(os.path.join("modal_csv", "Grantham.csv"), index_col = 'Name')
+    mat2 = pd.read_csv(os.path.join(sys.path[0],"modal_csv", "Grantham.csv"), index_col = 'Name')
     h2 = []
     for n in range(1, gap + 1):
         h2.append('G' + str(n))
@@ -292,7 +292,7 @@ def af_paac_comp(df):
 
 ######################### ATC ###################
 def af_atc(df):
-    atom=pd.read_csv(os.path.join("modal_csv", "atom.csv"),header=None)
+    atom=pd.read_csv(os.path.join(sys.path[0],"modal_csv", "atom.csv"),header=None)
     at=pd.DataFrame()
     i = 0
     C_atom = []

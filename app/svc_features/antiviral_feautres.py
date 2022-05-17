@@ -1,4 +1,4 @@
-import pandas as pd, os
+import pandas as pd, os, sys
 
 ################ ANTIVIRAL FEATURES #######################
 
@@ -10,7 +10,7 @@ def AV_bond(df) :
     b2 = []
     b4 = []
     bb = pd.DataFrame()
-    bonds=pd.read_csv(os.path.join("modal_csv", "bonds.csv"), sep = ",")
+    bonds=pd.read_csv(os.path.join(sys.path[0],"modal_csv", "bonds.csv"), sep = ",")
     for i in range(0,len(df)) :
         h = 0
         D = 0
@@ -61,7 +61,7 @@ def AV_DDOR(df) :
 
 ########################### CeTD ###############
 def AV_ctd(df):
-    attr=pd.read_csv(os.path.join("modal_csv", "aa_attr_group.csv"), sep="\t")
+    attr=pd.read_csv(os.path.join(sys.path[0],"modal_csv", "aa_attr_group.csv"), sep="\t")
     n = 0
     stt1 = []
     m = 1

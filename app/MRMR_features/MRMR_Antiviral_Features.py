@@ -1,6 +1,6 @@
 import pandas as pd
 from collections import Counter
-import math, os
+import math, os, sys
 import numpy as np
 import string
 invalid_char = set(string.punctuation)
@@ -162,7 +162,7 @@ def av_RAAC(df):
 
 ################## SOC #########
 def av_soc(df,gap):
-    mat1 = pd.read_csv(os.path.join("modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
+    mat1 = pd.read_csv(os.path.join(sys.path[0],"modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
     h1 = []
     for n in range(1, gap+1):
         h1.append('SC' + str(n))
@@ -183,8 +183,8 @@ def av_soc(df,gap):
 ################# QSO ############
 def av_qos(df,gap,w=0.1):
     std = list("KD")
-    mat1 = pd.read_csv(os.path.join("modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
-    mat2 = pd.read_csv(os.path.join("modal_csv", "Grantham.csv"), index_col = 'Name')
+    mat1 = pd.read_csv(os.path.join(sys.path[0],"modal_csv", "Schneider-Wrede.csv"), index_col = 'Name')
+    mat2 = pd.read_csv(os.path.join(sys.path[0],"modal_csv", "Grantham.csv"), index_col = 'Name')
     s1 = []
     s2 = []
     for i in range(0,len(df)):
@@ -243,7 +243,7 @@ def av_SE_residue_level(df):
 ################ ATC #################
 
 def av_atc(df):
-    atom=pd.read_csv(os.path.join("modal_csv", "atom.csv"),header=None)
+    atom=pd.read_csv(os.path.join(sys.path[0],"modal_csv", "atom.csv"),header=None)
     i = 0
     C_atom = []
     H_atom = []
@@ -334,7 +334,7 @@ def av_atc(df):
 
 ##################CeTD##################
 def av_ctd(df):
-    attr=pd.read_csv(os.path.join("modal_csv", "aa_attr_group.csv"), sep="\t")
+    attr=pd.read_csv(os.path.join(sys.path[0],"modal_csv", "aa_attr_group.csv"), sep="\t")
     n = 0
     stt1 = []
     m = 1
@@ -439,7 +439,7 @@ def av_val(AA_1, AA_2, aa, mat):
     return sum([(mat[i][aa[AA_1]] - mat[i][aa[AA_2]]) ** 2 for i in range(len(mat))]) / len(mat)
 def av_paac_1(df,lambdaval,w=0.05):
     std_P = list("ACDEFGHIKLMNPQRSTVWY")
-    data1 = pd.read_csv(os.path.join("modal_csv","data"), sep = "\t")
+    data1 = pd.read_csv(os.path.join(sys.path[0],"modal_csv","data"), sep = "\t")
     dd = []
     cc = []
     pseudo = []
@@ -467,7 +467,7 @@ def av_paac_1(df,lambdaval,w=0.05):
 
 #################### APAAC #####################
 def av_apaac_1(df,lambdaval,w=0.05):
-    data1 = pd.read_csv(os.path.join("modal_csv","data"), sep = "\t")
+    data1 = pd.read_csv(os.path.join(sys.path[0],"modal_csv","data"), sep = "\t")
     std_AP = list("ACDEFGHIKLMNPQRSTVWY")
     dd = []
     cc = []
@@ -500,7 +500,8 @@ def av_apaac_1(df,lambdaval,w=0.05):
     
     
 ############################# SEP ###############
-PCP= pd.read_csv(os.path.join('modal_csv' , 'PhysicoChemical.csv'), header=None) 
+import sys
+PCP= pd.read_csv(os.path.join(sys.path[0], 'modal_csv' , 'PhysicoChemical.csv'), header=None) 
 headers = ['Positively charged','Negatively charged','Neutral charged','Polarity',
 'Non polarity','Aliphaticity','Cyclic','Aromaticity','Acidicity','Basicity',
 'Neutral (ph)','Hydrophobicity','Hydrophilicity','Neutral','Hydroxylic',

@@ -1,4 +1,4 @@
-import pandas as pd, os
+import pandas as pd, os, sys
 
 ################################ NON AMP ##############3
 
@@ -30,7 +30,7 @@ def NON_AMP_bond(df) :
     b1 = []
     b3 = []
     bb = pd.DataFrame()
-    bonds=pd.read_csv(os.path.join("modal_csv", "bonds.csv"), sep = ",")
+    bonds=pd.read_csv(os.path.join(sys.path[0],"modal_csv", "bonds.csv"), sep = ",")
     for i in range(0,len(df)) :
         tot = 0
         S = 0
@@ -83,7 +83,7 @@ def NON_AMP_DDOR(df) :
 ########################### fourth feature CeTD ###############
 
 def NON_AMP_ctd(df):
-    attr=pd.read_csv(os.path.join("modal_csv", "aa_attr_group.csv"), sep="\t")
+    attr=pd.read_csv(os.path.join(sys.path[0],"modal_csv", "aa_attr_group.csv"), sep="\t")
     n = 0
     stt1 = []
     m = 1

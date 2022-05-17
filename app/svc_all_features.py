@@ -1,5 +1,5 @@
 import pandas as pd, os
-import numpy as np
+import numpy as np, sys
 from .svc_features.amp_feautres import *
 from .svc_features.anti_bacterial_feautres import*
 from .svc_features.antiFungal_features import*
@@ -10,7 +10,7 @@ from .svc_features.nonAmp_features import *
 ################## SOC #########
 
 def soc(df,gap):
-    mat2 = pd.read_csv(os.path.join("modal_csv", "Grantham.csv"), index_col = 'Name')
+    mat2 = pd.read_csv(os.path.join(sys.path[0], "modal_csv", "Grantham.csv"), index_col = 'Name')
     h2 = []
     for n in range(1, gap + 1):
         h2.append('G' + str(n))
