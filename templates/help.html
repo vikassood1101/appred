@@ -9,21 +9,20 @@
 This web server has been designed to assist scientists in predicting and designing antiprotozoal peptides.  This page helps the user on how different modules of this web server work. This server's key modules are as follows: 
 Predict, Design and Protein Scan<br><br>
 Some of the standard terms used in this study are as follows:<br>
-      <strong>Negative Dataset</strong> – Peptides with no antiprotozoal activity. Five negative datasets, Antiviral peptides, Antibacterial peptides, Antifungal peptides, and Antimicrobial Peptides (AMP) excluding antiprotozoal peptides, are used.<br>
+      <strong>Negative Dataset</strong> – Peptides with no antiprotozoal activity. Five negative datasets, Non-Antimicrobial peptides, Antiviral peptides, Antibacterial peptides, Antifungal peptides, and Antimicrobial peptides (AMP) excluding antiprotozoal peptides, are used.<br>
       
 <strong>Positive Dataset</strong> – Peptides with antiprotozoal activity are used.<br>
 <strong>Feature Selection Method</strong> –Feature selection methods i.e SVC-L1 and mRMR are used to select relevant features from a pool of features to build an efficient machine-learning model. The machine learning models built on features selected by mRMR are more robust than the feature selected by SVC-L1.<br>
 <strong>Prediction Model</strong> – Five different classifiers to classify antiprotozoal peptides from the negative class. The prediction models are Decision Tree, Random Forest, Support Vector Machine, Logistic Regression and XGBoost. XgBoost using features selected by mRMR outperformed all other classifiers in classifying antiprotozoal peptides from the negative class.
     </p>
-    <br />
   </div>
 </div>
 <br />
 <hr>
-<br />
+
 <div class="container">
-  <h4 class="heading-color">Predict</h4>
-  
+  <h4 style="text-align: center;" class="heading-color">Predict</h4>
+  <br>
   <div style="text-align: justify;" >
     <strong>
  This module allows the users to predict antiprotozoal peptides from a set of peptides or a peptide library (virtual screening).
@@ -40,14 +39,14 @@ Users may follow the following steps to predict the antiprotozoal activity of a 
     </div>
   </div>
 </div>
-<br />
-<hr><br />
+<hr>
 <div class="container">
-  <h4 style="text-align: center" class="heading-color"> Design</h4>
+  <h4 style="text-align: center;"  class="heading-color"> Design</h4>
+  <br>
   <div style="text-align: justify;">
     <strong>
      This module generates mutants of a given peptide and predicts antiprotozoal peptides among the mutants. 
-This server helps users to find the position of mutations needed to boost the potency of query peptides.  
+This server helps users to find the position of mutation needed to boost the potency of query peptide.  
     </strong>
     <br /><br />
     <div>
@@ -59,9 +58,10 @@ This server helps users to find the position of mutations needed to boost the po
     </div>
   </div>
 </div>
-<br /><hr><br />
+<br /><hr>
 <div class="container">
   <h4 style="text-align: center" class="heading-color">Protein Scan</h4>
+  <br>
   <div style="text-align: justify;">
     <strong>
 This module generates overlapping peptides from the query protein sequence and estimates their antiprotozoal activity. The user can change the length of the overlapping peptide fragment by changing the value of K. The default value of K = 15. 
