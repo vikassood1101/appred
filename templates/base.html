@@ -1,146 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <title>{% block title %}{% endblock %}</title>
-    <style>
-      .hover:hover {
-        background-color: rgb(96, 188, 216);
-      }
-      .navcolor {
-        color: black;
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="{{url_for('static', filename='assets/bootstrap/css/bootstrap.min.css')}}"
-    />
-    <link rel="stylesheet" href="{{url_for('static', filename ='assets/fonts/ionicons.min.css')}}"/>
-    <link rel="stylesheet" href="{{url_for('static', filename='assets/css/styles.css')}}"/>
-    <link
-      rel="stylesheet"
-      href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css"
-    />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="{{url_for('static', filename='assets/fonts/favicon.ico')}}"
-    />
-    <link rel="stylesheet" href="{{url_for('static', filename='assets/css/footer-basic.css')}}">
-  </head>
 
-  <body>
-    <div class="container" id="mainHeading">
-      <br />
-      <h1 style="text-align: center; font-weight: 600px">
-        APPred: Antiprotozoal Peptide Prediction
-      </h1>
-      <br />
-    </div>
-    <div class="container" style="width: 100%">
-      <nav>
-        <ul class="nav nav-tabs nav-justified" style="align-items: center">
-          <li class="nav-item hover">
-            <a class="nav-link hover nav-size" href="{{request.script_root}}/"
-              ><span class="navcolor navbox"><b>HOME</b> </span>
-            </a>
-          </li>
-          <li class="nav-item hover">
-            <a class="nav-link nav-size" href="{{request.script_root}}/predict"
-              ><span class="navcolor navbox span-align"><b>PREDICT</b></span>
-            </a>
-          </li>
-          <li class="nav-item hover">
-            <a class="nav-link nav-size" href="{{request.script_root}}/design"
-              ><span class="navcolor navbox"><b>DESIGN</b></span>
-            </a>
-          </li>
-          <li class="nav-item hover">
-            <a class="nav-link nav-size" href="{{request.script_root}}/proteinScan"
-              ><span class="navcolor navbox"><b>PROTEIN SCAN</b></span></a
-            >
-          </li>
-          <li class="nav-item hover">
-            <a class="nav-link nav-size" href="{{request.script_root}}/dataset"
-              ><span class="navcolor"><b>DATASET</b></span></a
-            >
-          </li>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>{% block title %}{% endblock %}</title>
+  <style>
+    .hover:hover {
+      background-color: rgb(96, 188, 216);
+    }
 
-          <li class="nav-item hover">
-            <a class="nav-link nav-size" href="{{request.script_root}}/help"
-              ><span class="navcolor"><b>HELP</b></span></a
-            >
-          </li>
-          <li class="nav-item hover">
-            <a class="nav-link nav-size" href="{{request.script_root}}/contact"
-              ><span class="navcolor"><b>CONTACT US</b></span></a
-            >
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <br />
-    <br />
-    <br />
-    <div class="container">
-      {% with messages = get_flashed_messages(with_categories=true) %} {% if
-      messages %} {% for category,message in messages %}
-      <div
-        class="alert alert-{{ category }} alert-dismissible fade show"
-        role="alert"
-      >
-        <span>{{ message }}</span>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="alert"
-          aria-label="Close"
-        ></button>
-      </div>
-      {% endfor %} {% endif %} {% endwith %}
-    </div>
-    <button
-      type="button"
-      class="btn btn-secondary btn-floating btn-lg btn-sm"
-      id="btn-back-to-top"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        class="bi bi-arrow-up"
-        viewBox="0 0 16 16"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
-        />
-      </svg>
-    </button>
-    <div class="main-container">{% block main %}{% endblock %}</div>
-    <div class="footer-basic" id="footerHide">
-      <footer style="background-color: rgb(175, 222, 236)">
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="{{request.script_root}}/">HOME</a></li>
-          <li class="list-inline-item"><a href="{{request.script_root}}/predict">PREDICT</a></li>
-          <li class="list-inline-item"><a href="{{request.script_root}}/design">DESIGN</a></li>
-          <li class="list-inline-item">
-            <a href="{{request.script_root}}/proteinScan">PROTEIN SCAN</a>
-          </li>
-          <li class="list-inline-item"><a href="{{request.script_root}}/dataset">DATASET</a></li>
-          <li class="list-inline-item"><a href="{{request.script_root}}/help">HELP</a></li>
-          <li class="list-inline-item"><a href="{{request.script_root}}/contact">CONTACT US</a></li>
-        </ul>
-      </footer>
-    </div>
+    .navcolor {
+      color: black;
+    }
+  </style>
+  <link rel="stylesheet" href="{{url_for('static', filename='assets/bootstrap/css/bootstrap.min.css')}}" />
+  <link rel="stylesheet" href="{{url_for('static', filename ='assets/fonts/ionicons.min.css')}}" />
+  <link rel="stylesheet" href="{{url_for('static', filename='assets/css/styles.css')}}" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{url_for('static', filename='assets/fonts/favicon.ico')}}" />
+  <link rel="stylesheet" href="{{url_for('static', filename='assets/css/footer-basic.css')}}">
+</head>
 
-    <script src="{{url_for('static', filename='assets/bootstrap/js/bootstrap.min.js')}}"></script>
-    <script src="{{url_for('static', filename='assets/bootstrap/js/main.js')}}"></script>
-    {% block script %}{% endblock %}
-  </body>
+<body>
+  <div class="container" id="mainHeading">
+    <br />
+    <h1 style="text-align: center; font-weight: 600px">
+      APPred: Antiprotozoal Peptide Prediction
+    </h1>
+    <br />
+  </div>
+  <div class="container" style="width: 100%">
+    <nav>
+      <ul class="nav nav-tabs nav-justified" style="align-items: center">
+        <li class="nav-item hover">
+          <a class="nav-link hover nav-size" href="{{request.script_root}}/"><span class="navcolor navbox"><b>HOME</b>
+            </span>
+          </a>
+        </li>
+        <li class="nav-item hover">
+          <a class="nav-link nav-size" href="{{request.script_root}}/predict"><span
+              class="navcolor navbox span-align"><b>PREDICT</b></span>
+          </a>
+        </li>
+        <li class="nav-item hover">
+          <a class="nav-link nav-size" href="{{request.script_root}}/design"><span
+              class="navcolor navbox"><b>DESIGN</b></span>
+          </a>
+        </li>
+        <li class="nav-item hover">
+          <a class="nav-link nav-size" href="{{request.script_root}}/proteinScan"><span
+              class="navcolor navbox"><b>PROTEIN SCAN</b></span></a>
+        </li>
+        <li class="nav-item hover">
+          <a class="nav-link nav-size" href="{{request.script_root}}/dataset"><span
+              class="navcolor"><b>DATASET</b></span></a>
+        </li>
+
+        <li class="nav-item hover">
+          <a class="nav-link nav-size" href="{{request.script_root}}/help"><span class="navcolor"><b>HELP</b></span></a>
+        </li>
+        <li class="nav-item hover">
+          <a class="nav-link nav-size" href="{{request.script_root}}/contact"><span class="navcolor"><b>CONTACT
+                US</b></span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <br />
+  <br />
+  <br />
+  <div class="container">
+    {% with messages = get_flashed_messages(with_categories=true) %} {% if
+    messages %} {% for category,message in messages %}
+    <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+      <span>{{ message }}</span>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    {% endfor %} {% endif %} {% endwith %}
+  </div>
+  <button type="button" class="btn btn-secondary btn-floating btn-lg btn-sm" id="btn-back-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up"
+      viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+    </svg>
+  </button>
+  <div class="main-container">{% block main %}{% endblock %}</div>
+  <div class="footer-basic" id="footerHide">
+    <span style="font-size: 1.2em;"><b> ==== Reference ==== </b></span>
+    <br>
+    <ol>
+      <li>Neha Periwal, Pooja Arora, Ananya Thakur, Lakshay Agrawal, Yash Goyal, Anand S. Rathod, Harsimrat Singh Anand,
+        Baljeet Kaur and Vikas Sood.
+        <span>Antiprotozoal peptide prediction using machine learning with effective feature selection
+          techniques.</span>
+        <a href="https://www.sciencedirect.com/science/article/pii/S2405844024121949">
+          Heliyon, Aug 2024: e36163
+        </a>
+      </li>
+    </ol>
+    <footer style="background-color: rgb(175, 222, 236); padding: 1rem;">
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="{{request.script_root}}/">HOME</a></li>
+        <li class="list-inline-item"><a href="{{request.script_root}}/predict">PREDICT</a></li>
+        <li class="list-inline-item"><a href="{{request.script_root}}/design">DESIGN</a></li>
+        <li class="list-inline-item">
+          <a href="{{request.script_root}}/proteinScan">PROTEIN SCAN</a>
+        </li>
+        <li class="list-inline-item"><a href="{{request.script_root}}/dataset">DATASET</a></li>
+        <li class="list-inline-item"><a href="{{request.script_root}}/help">HELP</a></li>
+        <li class="list-inline-item"><a href="{{request.script_root}}/contact">CONTACT US</a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="{{url_for('static', filename='assets/bootstrap/js/bootstrap.min.js')}}"></script>
+  <script src="{{url_for('static', filename='assets/bootstrap/js/main.js')}}"></script>
+  {% block script %}{% endblock %}
+</body>
+
 </html>
