@@ -93,9 +93,10 @@ th {
   height: 100%;
 }
 .bounce-cont {
-  animation: bounce 0.5s;
+  animation: bounce 5s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 @media only screen and (max-width: 600px) {
   #footerHide {
@@ -104,9 +105,9 @@ th {
 }
 @keyframes bounce {
   from {
-    transform: translateX(0);
+    transform: translateX(-7%);
   }
   to {
-    transform: translateX(200px);
+    transform: translateX(10%);
   }
 }
